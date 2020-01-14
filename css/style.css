@@ -1,7 +1,6 @@
 body{
 	background-color: B0DFE5;
 	margin: 0px;
-	height: 1000px;
 }
 
 /* Add a black background color to the top navigation */
@@ -38,6 +37,9 @@ header {
   color: white;
 }
 
+#stuff {
+	height: 500px;
+}
 
 footer {
   background-color: #777;
