@@ -38,7 +38,7 @@ header {
 }
 
 #stuff {
-	height: 500px;
+	height: 1000px;
 }
 
 footer {
@@ -48,6 +48,5 @@ footer {
   color: white;
   position: absolute;
   width: 100%;
-  height: 55px;
-  bottom: 0px;  
+  height: 55px; 
 }
