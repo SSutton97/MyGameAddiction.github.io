@@ -1,16 +1,19 @@
 body {
 	background-color: #ADD8E6;
 }
-
-h1 {
-	font-family: Courier New;
-	text-align: center;
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
 }
 /* ------- Navigation ------------ */
 /* Style the navbar */
 #navbar {
   overflow: hidden;
   background-color: #333;
+  font-family: 'Ek Mukta', sans-serif;
 }
 
 /* Navbar links */
