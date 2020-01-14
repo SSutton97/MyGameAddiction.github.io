@@ -2,7 +2,10 @@ body {
 	background-color: #98FF98;
 }
 
-
+h1 {
+	font: Impact, Charcoal, sans-serif;
+	text-align: center;
+}
 /* ------- Navigation ------------ */
 /* Style the navbar */
 #navbar {
