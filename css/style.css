@@ -8,18 +8,8 @@ html{
 	margin: 0 0 100px;
 }
 
-#legal{
-	background-color: #74828F;
-	margin: 0 0 100px;
-}
-
 #about{
 	background-color: #96C0CE;
-	margin: 0 0 100px;
-}
-
-#health{
-	background-color: #C25B56;
 	margin: 0 0 100px;
 }
 
@@ -28,8 +18,58 @@ html{
 	margin: 0 0 100px;
 }
 
-#contact{
-	background-color: #ADD8E6;
+#how-guide{
+	background-color: #74828F;
+	margin: 0 0 100px;
+}
+
+#organisation{
+	background-color: #74828F;
+	margin: 0 0 100px;
+}
+
+#online-help{
+	background-color: #74828F;
+	margin: 0 0 100px;
+}
+
+#medical-help{
+	background-color: #74828F;
+	margin: 0 0 100px;
+}
+
+#legal{
+	background-color: #74828F;
+	margin: 0 0 100px;
+}
+
+#legal{
+	background-color: #74828F;
+	margin: 0 0 100px;
+}
+
+#uk{
+	background-color: #74828F;
+	margin: 0 0 100px;
+}
+
+#international{
+	background-color: #74828F;
+	margin: 0 0 100px;
+}
+
+#health{
+	background-color: #C25B56;
+	margin: 0 0 100px;
+}
+
+#mental-health{
+	background-color: #C25B56;
+	margin: 0 0 100px;
+}
+
+#physical-health{
+	background-color: #C25B56;
 	margin: 0 0 100px;
 }
 
@@ -37,6 +77,13 @@ html{
 	background-color: #74828F;
 	margin: 0 0 100px;
 }
+
+#contact{
+	background-color: #ADD8E6;
+	margin: 0 0 100px;
+}
+
+
 
 header {
   background-color: #525564;
