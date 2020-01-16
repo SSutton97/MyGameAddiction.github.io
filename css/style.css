@@ -9,7 +9,7 @@ body{
 }
 
 header {
-  background-color: #666;
+  background-color: #525564;
   padding: 30px;
   text-align: center;
   font-size: 35px;
@@ -19,7 +19,7 @@ header {
 
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #96C0CE;
     text-transform: uppercase;
 }
 
@@ -35,7 +35,7 @@ header {
 }
 
 .active {
-  background-color: #4CAF50;
+  background-color: #BEB9B5;
   color: white;
 }
 
@@ -97,7 +97,7 @@ header {
 }
 
 footer {
-    background-color: orange;
+    background-color: #BEB9B5;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -118,7 +118,7 @@ footer {
   }
   
 footer {
-    background-color: orange;
+    background-color: #BEB9B5;
     position: absolute;
     left: 0;
     bottom: 0;
@@ -152,7 +152,7 @@ footer {
   }
   
 footer {
-    background-color: orange;
+    background-color: #BEB9B5;
     position: absolute;
     left: 0;
     bottom: 0;
