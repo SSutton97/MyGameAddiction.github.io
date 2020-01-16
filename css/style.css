@@ -26,7 +26,7 @@ header {
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #525564;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -52,12 +52,12 @@ header {
   font-size: 17px;    
   border: none;
   outline: none;
-  color: white;
+  color: #525564;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
   margin: 0;
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .dropdown-content {
