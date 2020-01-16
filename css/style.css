@@ -208,19 +208,17 @@ header {
 .dropdown:hover .dropdown-content {
   display: block;
 }
-#stuff {
-	
-}
+
 
 footer {
     background-color: #BEB9B5;
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 100px;
+    height: 85px;
     width: 100%;
     overflow: hidden;
-	  margin-top: 15px;
+	margin-top: 15px;
 }
 
 
