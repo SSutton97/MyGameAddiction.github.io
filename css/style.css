@@ -143,6 +143,7 @@ footer {
     display: block;
     text-align: left;
 	text-transform: uppercase;
+	
   }
   .topnav.responsive .dropdown {float: none;}
   .topnav.responsive .dropdown-content {position: relative;}
