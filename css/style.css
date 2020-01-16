@@ -15,6 +15,7 @@ header {
 .topnav {
   overflow: hidden;
   background-color: #333;
+    text-transform: uppercase;
 }
 
 .topnav a {
@@ -51,6 +52,7 @@ header {
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+    text-transform: uppercase;
 }
 
 .dropdown-content {
@@ -69,6 +71,7 @@ header {
   text-decoration: none;
   display: block;
   text-align: left;
+  text-transform: uppercase;
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
