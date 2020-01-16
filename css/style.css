@@ -3,7 +3,32 @@ html{
 	min-height: 100%
 }
 
-body{
+#index{
+	background-color: #ADD8E6;
+	margin: 0 0 100px;
+}
+
+#legal{
+	background-color: #74828F;
+	margin: 0 0 100px;
+}
+
+#about{
+	background-color: #96C0CE;
+	margin: 0 0 100px;
+}
+
+#health{
+	background-color: #C25B56;
+	margin: 0 0 100px;
+}
+
+#help{
+	background-color: #FEF6EB;
+	margin: 0 0 100px;
+}
+
+#contact{
 	background-color: #ADD8E6;
 	margin: 0 0 100px;
 }
