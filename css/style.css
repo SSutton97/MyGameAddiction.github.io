@@ -101,7 +101,7 @@ h2 {
   margin-bottom: 15px;
 }
 
-#cont_middle{
+#cont_two{
   background-color: #BEB9B5;
   padding: 30px;
   text-align: center;
@@ -112,7 +112,18 @@ h2 {
   margin-bottom: 15px;
 }
 
-#cont_end{
+#cont_three{
+  background-color: #FEF6EB;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  font-family: Impact, fantasy;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#cont_four{
   background-color: #C25B56;
   padding: 30px;
   text-align: center;
