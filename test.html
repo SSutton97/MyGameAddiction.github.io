@@ -11,14 +11,36 @@
 
 
   <!-- Navigation -->
-<div class="topnav">
-  <a href="index.html">Home</a>
-  <a href="help.html">Help & Advice</a>
-  <a href="health.html">Health</a>
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
   <a href="legal.html">Legal</a>
-  <a href="test.html">Take the test</a>
+  <a href="health.html">Health</a>
+  <a href="test.html">Take the Test</a>
   <a href="contact.html">Contact</a>
+  <div class="dropdown">
+    <button class="dropbtn">Help & Advice
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </div> 
+  <a href="about.html">About</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
 </div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
 
 
 <footer>
