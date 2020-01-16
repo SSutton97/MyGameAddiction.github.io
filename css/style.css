@@ -5,7 +5,7 @@ html{
 
 #index{
 	background-color: #ADD8E6;
-	margin: 0 0 100px;
+	margin: 0 0 165px;
 }
 
 #about{
@@ -84,7 +84,7 @@ html{
 }
 
 h2 {
-	font-family: Helvetica;
+	font-family: Courier New;
 	text-align: center;
 	font-size: 45px;
 	color: black;
@@ -222,14 +222,14 @@ header {
 
 
 footer {
-    background-color: #BEB9B5;
+    background-color: #EBEBE9;
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 85px;
+    height: 147px;
     width: 100%;
     overflow: hidden;
-	margin-top: 15px;
+    margin-top: 15px;
 }
 
 
@@ -248,7 +248,7 @@ footer {
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 100px;
+    height: 150px;
     width: 100%;
     overflow: hidden;
 }
