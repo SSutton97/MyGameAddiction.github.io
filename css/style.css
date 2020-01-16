@@ -1,7 +1,11 @@
+html{
+	position: relative;	
+	min-height: 100%
+}
+
 body{
 	background-color: #ADD8E6;
-	margin: 0px;
-	min-height: 100%;
+	margin: 0 0 100px;
 }
 
 header {
@@ -93,13 +97,13 @@ header {
 }
 
 footer {
-    background-color: white;
+    background-color: orange;
     position: absolute;
     left: 0;
     bottom: 0;
     height: 100px;
     width: 100%;
-    overflow: hidden; 
+    overflow: hidden;
 }
 
 @media screen and (max-width: 600px) {
@@ -111,14 +115,14 @@ footer {
     display: block;
   }
   
-    footer {
-    background-color: white;
+footer {
+    background-color: orange;
     position: absolute;
     left: 0;
     bottom: 0;
     height: 100px;
     width: 100%;
-    overflow: hidden; 
+    overflow: hidden;
 }
 }
 
@@ -145,14 +149,14 @@ footer {
     text-align: left;
   }
   
-  footer {
-    background-color: white;
+footer {
+    background-color: orange;
     position: absolute;
     left: 0;
     bottom: 0;
     height: 100px;
     width: 100%;
-    overflow: hidden; 
+    overflow: hidden;
 }
 }
 
