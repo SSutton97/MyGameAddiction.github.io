@@ -97,6 +97,30 @@ h2 {
   font-size: 35px;
   color: white;
   font-family: Impact, fantasy;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#cont_middle{
+  background-color: #BEB9B5;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  font-family: Impact, fantasy;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#cont_end{
+  background-color: #C25B56;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  font-family: Impact, fantasy;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 header {
@@ -196,6 +220,7 @@ footer {
     height: 100px;
     width: 100%;
     overflow: hidden;
+	  margin-top: 15px;
 }
 
 
