@@ -25,6 +25,7 @@ header {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  text-transform: uppercase;
 }
 
 .active {
@@ -120,6 +121,7 @@ footer {
     float: none;
     display: block;
     text-align: left;
+	text-transform: uppercase;
   }
   .topnav.responsive .dropdown {float: none;}
   .topnav.responsive .dropdown-content {position: relative;}
