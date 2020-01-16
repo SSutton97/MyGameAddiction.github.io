@@ -127,11 +127,31 @@ footer {
     width: 100%;
     overflow: hidden;
 }
+
+header {
+  background-color: #525564;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  font-family: Impact, fantasy;
+  font-size: 20px;
+}
 }
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media screen and (max-width: 600px) {
+header {
+  background-color: #525564;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  font-family: Impact, fantasy;
+  font-size: 20px;
+}
+  
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
