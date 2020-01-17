@@ -384,16 +384,6 @@ footer {
     float: right;
     display: block;
   }
-  
-footer {
-    background-color: #BEB9B5;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 150px;
-    width: 100%;
-    overflow: hidden;
-}
 
 header {
   background-color: #525564;
@@ -409,6 +399,87 @@ header {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media screen and (max-width: 600px) {
+	
+#index{
+	background-color: #ADD8E6;
+	margin: 0 0 165px;
+}
+
+#about{
+	background-color: #96C0CE;
+	margin: 0 0 100px;
+}
+
+#help{
+	background-color: #FEF6EB;
+	margin: 0 0 100px;
+}
+
+#how-guide{
+	background-color: #74828F;
+	margin: 0 0 100px;
+}
+
+#organisation{
+	background-color: #74828F;
+	margin: 0 0 100px;
+}
+
+#online-help{
+	background-color: #74828F;
+	margin: 0 0 100px;
+}
+
+#medical-help{
+	background-color: #74828F;
+	margin: 0 0 100px;
+}
+
+#legal{
+	background-color: #74828F;
+	margin: 0 0 100px;
+}
+
+#legal{
+	background-color: #74828F;
+	margin: 0 0 100px;
+}
+
+#uk{
+	background-color: #74828F;
+	margin: 0 0 100px;
+}
+
+#international{
+	background-color: #74828F;
+	margin: 0 0 100px;
+}
+
+#health{
+	background-color: #C25B56;
+	margin: 0 0 100px;
+}
+
+#mental-health{
+	background-color: #C25B56;
+	margin: 0 0 100px;
+}
+
+#physical-health{
+	background-color: #C25B56;
+	margin: 0 0 100px;
+}
+
+#test{
+	background-color: #74828F;
+	margin: 0 0 100px;
+}
+
+#contact{
+	background-color: #ADD8E6;
+	margin: 0 0 100px;
+}
+
 header {
   background-color: #525564;
   padding: 30px;
@@ -430,24 +501,14 @@ header {
     display: block;
     text-align: left;
 	text-transform: uppercase;
-	
   }
+  
   .topnav.responsive .dropdown {float: none;}
   .topnav.responsive .dropdown-content {position: relative;}
   .topnav.responsive .dropdown .dropbtn {
     display: block;
     width: 100%;
     text-align: left;
-  }
-  
-footer {
-    background-color: #BEB9B5;
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    height: 150px;
-    width: 100%;
-    overflow: hidden;
 }
 
 #cont_intro{
@@ -496,6 +557,62 @@ footer {
   margin-top: 15px;
   margin-bottom: 15px;
   height: 250px;
+}
+
+.grid-container {
+display: grid;
+    grid-template-columns: 310px;
+    grid-gap: 30px;
+    padding: 30px;
+    font-family: Courier New;
+    font-size: 15px;
+}
+
+.grid-container > #how {
+  background-color: #96C0CE;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 15px 50px 30px;
+  height: 210px;
+}
+
+.grid-container > #organ {
+  background-color: #BEB9B5;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 15px 50px 30px;
+  height: 210px;
+}
+
+.grid-container > #online {
+  background-color: #C25B56;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 15px 50px 30px;
+  height: 210px;
+}
+
+.grid-container > #medical {
+  background-color: #FEF6EB;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 15px 50px 30px;
+  height: 210px;
+}
+
+footer {
+    background-color: green;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 147px;
+    width: 100%;
+    overflow: hidden;
+    margin-top: 15px;
 }
 }
 
