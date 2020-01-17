@@ -445,9 +445,57 @@ footer {
     position: absolute;
     left: 0;
     bottom: 0;
-    height: 100px;
+    height: 150px;
     width: 100%;
     overflow: hidden;
+}
+
+#cont_intro{
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  font-family: Impact, fantasy;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 300px;
+}
+
+#cont_two{
+  background-color: #BEB9B5;
+  padding: 30px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+  font-family: Impact, fantasy;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 250px;
+}
+
+#cont_three{
+  background-color: #FEF6EB;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  font-family: Impact, fantasy;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 250px;
+}
+
+#cont_four{
+  background-color: #C25B56;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  font-family: Impact, fantasy;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  height: 250px;
 }
 }
 
