@@ -100,7 +100,7 @@ h2 {
   font-family: Impact, fantasy;
   margin-top: 15px;
   margin-bottom: 15px;
-  height: 250px;
+  height: 260px;
 }
 
 #cont_two{
@@ -263,7 +263,6 @@ header {
   right: 0;
 }
 
-
 .button2 {
     border-radius: 15px;
     background-color: #FEF6EB;
@@ -301,10 +300,6 @@ header {
   opacity: 1;
   right: 0;
 }
-
-
-
-
 
 .grid-container {
   display: grid;
