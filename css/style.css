@@ -631,7 +631,7 @@ header {
   font-family: Impact, fantasy;
   margin-top: 15px;
   margin-bottom: 15px;
-  height: 300px;
+  height: 450px;
 }
 
 #cont_two{
@@ -643,7 +643,7 @@ header {
   font-family: Impact, fantasy;
   margin-top: 15px;
   margin-bottom: 15px;
-  height: 300px;
+  height: 400px;
 }
 
 #cont_three{
@@ -667,7 +667,7 @@ header {
   font-family: Impact, fantasy;
   margin-top: 15px;
   margin-bottom: 15px;
-  height: 300px;
+  height: 340px;
 }
 
 .grid-container {
