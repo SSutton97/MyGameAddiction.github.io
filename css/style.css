@@ -264,24 +264,41 @@ a:-webkit-any-link {
   font-size: 15px;
 }
 
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
+.grid-container > #how {
+  background-color: #96C0CE;
   border: 1px solid black;
   text-align: center;
   font-size: 30px;
   border-radius: 15px 50px 30px;
-  height: 150px;
+  height: 210px;
 }
 
-.grid-container > #how {
+.grid-container > #organ {
+  background-color: #BEB9B5;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 15px 50px 30px;
+  height: 210px;
+}
+
+.grid-container > #online {
   background-color: #C25B56;
   border: 1px solid black;
   text-align: center;
   font-size: 30px;
   border-radius: 15px 50px 30px;
-  height: 150px;
+  height: 210px;
 }
 
+.grid-container > #medical {
+  background-color: #FEF6EB;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 15px 50px 30px;
+  height: 210px;
+}
 
 footer {
     background-color: #EBEBE9;
