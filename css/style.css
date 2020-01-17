@@ -229,9 +229,12 @@ header {
 }
   
 #example1 {
-  border: 1px solid #C25B56;
+  /*border: 1px solid #C25B56;*/
+  border-style: dashed;
+   border-color: black;
+  border-width: 3px;
   padding: 10px;
-  box-shadow: 0px 0px 7px 7px #C25B56;
+  /*box-shadow: 0px 0px 7px 7px #C25B56;*/
   background-color: white;
   margin: 60px;
 }
@@ -518,7 +521,7 @@ header {
   text-align: center;
   font-size: 30px;
   border-radius: 15px 50px 30px;
-  height: 210px;
+  height: 270px;
 }
 
 .grid-container > #organ {
