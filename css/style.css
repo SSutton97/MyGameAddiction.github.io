@@ -250,6 +250,7 @@ header {
     width: 170px;
     transition: all 0.5s;
     cursor: pointer;
+	margin: 15px;
 }
 
 .button1 span {
