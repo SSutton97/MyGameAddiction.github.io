@@ -225,33 +225,43 @@ header {
   display: block;
 }
 
-#button {
-    width: 6em;
-    border: 2px solid #C25B56;
-    background: white;
-    border-radius: 5px;
-	margin-left: 785px;
+.button1 {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
 }
 
-button: a {
-    display: block;
-    width: 100%;
-    line-height: 2em;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-	color: #525564;
+.button1 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
 }
 
-a:hover {
-    color: #C25B56;
-    background: white;
+.button1 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
 }
 
-a:-webkit-any-link {
-    color: #525564;
-    cursor: pointer;
-    text-decoration: none;
+.button1:hover span {
+  padding-right: 25px;
+}
+
+.button1:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 
