@@ -112,7 +112,7 @@ h2 {
   font-family: Impact, fantasy;
   margin-top: 15px;
   margin-bottom: 15px;
-  height: 250px;
+  height: 300px;
 }
 
 #cont_three{
@@ -124,7 +124,7 @@ h2 {
   font-family: Impact, fantasy;
   margin-top: 15px;
   margin-bottom: 15px;
-  height: 250px;
+  height: 270px;
 }
 
 #cont_four{
@@ -416,6 +416,81 @@ header {
   right: 0;
 }
 
+.button_about {
+    border-radius: 15px;
+    background-color: #96C0CE;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    width: 170px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.button_about span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button_about span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button_about:hover span {
+  padding-right: 25px;
+}
+
+.button_about:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.button-test {
+    border-radius: 15px;
+    background-color: #96C0CE;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    width: 170px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.button-test span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button-test span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button-test:hover span {
+  padding-right: 25px;
+}
+
+.button-test:hover span:after {
+  opacity: 1;
+  right: 0;
+}
 
 .grid-container {
   display: grid;
