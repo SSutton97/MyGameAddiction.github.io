@@ -142,13 +142,25 @@ h2 {
   height: 270px;
 }
 
-header {
-  background-color: #525564;
-  padding: 30px;
+
+
+.hero-image {
+  background-image: url("images/image1.jpg");
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
   text-align: center;
-  font-size: 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: white;
-  font-family: Impact, fantasy;
 }
 
 .topnav {
@@ -561,6 +573,7 @@ footer {
     width: 100%;
     overflow: hidden;
     margin-top: 15px;
+	background-image: url("x.jpg");
 }
 
 
