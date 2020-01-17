@@ -8,6 +8,7 @@ html{
 	margin: 0 0 165px;
 }
 
+
 #about{
 	background-color: #96C0CE;
 	margin: 0 0 100px;
@@ -99,7 +100,7 @@ h2 {
   font-family: Impact, fantasy;
   margin-top: 15px;
   margin-bottom: 15px;
-  height: 200px;
+  height: 250px;
 }
 
 #cont_two{
@@ -111,7 +112,7 @@ h2 {
   font-family: Impact, fantasy;
   margin-top: 15px;
   margin-bottom: 15px;
-  height: 200px;
+  height: 250px;
 }
 
 #cont_three{
@@ -123,7 +124,7 @@ h2 {
   font-family: Impact, fantasy;
   margin-top: 15px;
   margin-bottom: 15px;
-  height: 200px;
+  height: 250px;
 }
 
 #cont_four{
@@ -135,7 +136,7 @@ h2 {
   font-family: Impact, fantasy;
   margin-top: 15px;
   margin-bottom: 15px;
-  height: 200px;
+  height: 250px;
 }
 
 header {
@@ -211,7 +212,7 @@ header {
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: #555;
+  background-color: #C25B56;;
   color: white;
 }
 
@@ -224,6 +225,34 @@ header {
   display: block;
 }
 
+#button {
+    width: 6em;
+    border: 2px solid #C25B56;
+    background: white;
+    border-radius: 5px;
+	margin-left: 785px;
+}
+
+button: a {
+    display: block;
+    width: 100%;
+    line-height: 2em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+	color: #525564;
+}
+
+a:hover {
+    color: #C25B56;
+    background: white;
+}
+
+a:-webkit-any-link {
+    color: #525564;
+    cursor: pointer;
+    text-decoration: none;
+}
 
 footer {
     background-color: #EBEBE9;
@@ -235,6 +264,18 @@ footer {
     overflow: hidden;
     margin-top: 15px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*---- MEDIA QUERIES ----*/
