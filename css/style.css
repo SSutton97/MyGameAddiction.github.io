@@ -598,7 +598,7 @@ header {
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
 	
 #index{
 	background-color: #ADD8E6;
@@ -710,17 +710,19 @@ header {
     width: 100%;
     text-align: left;
 }
-
+h2 {
+	font-size: 25px;
+}
 #cont_intro{
   background-color: white;
   padding: 30px;
   text-align: center;
-  font-size: 35px;
+  font-size: 15px;
   color: white;
   font-family: Impact, fantasy;
   margin-top: 15px;
   margin-bottom: 15px;
-  height: 450px;
+  height: 500px;
 }
 
 #cont_two{
