@@ -1,9 +1,4 @@
 <!DOCTYPE html>
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<title> The Game Addict </title>
-</head>
 
 <body id = "index">
 
@@ -13,9 +8,12 @@
   </div>
 </div>
 
-<h2>contact </h2>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
 
-  <!-- Navigation -->
 <div class="topnav" id="myTopnav">
   <a href="index.html" class="active">Home</a>
   <a href="about.html">About</a>
@@ -66,23 +64,35 @@ function myFunction() {
 }
 </script>
 
-<div id="stuff">
-<p>test</p><br />
-<p>test</p><br />
-<p>test</p><br />
-<p>test</p><br />
-<p>test</p><br />
-<p>test</p><br />
-<p>test</p><br />
-<p>test</p><br />
+<h1> Contact Us </h1>
+
+<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="usa">UK</option>
+      <option value="ireland">Ireland</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
 </div>
 
-<footer>
-	<div class="footer-copyright">
-		© 2020 Copyright: The Game Addict
-	</div>
+<footer class="container-fluid text-center">
+  <p>Footer Text</p>
 </footer>
-
 
 </body>
 </html>
