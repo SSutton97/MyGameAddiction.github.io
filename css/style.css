@@ -118,6 +118,10 @@ h2 {
   height: 300px;
 }
 
+#cont_two p {
+	font-family: "Times New Roman", Georgia, Serif;
+}
+
 #cont_three{
   background-color: #FEF6EB;
   padding: 30px;
@@ -128,6 +132,10 @@ h2 {
   margin-top: 15px;
   margin-bottom: 15px;
   height: 270px;
+}
+
+#cont_three p {
+	font-family: "Times New Roman", Georgia, Serif;
 }
 
 #cont_four{
@@ -142,6 +150,9 @@ h2 {
   height: 270px;
 }
 
+#cont_four p {
+	font-family: "Times New Roman", Georgia, Serif;
+}
 
 
 .hero-image {
