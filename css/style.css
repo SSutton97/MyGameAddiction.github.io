@@ -243,16 +243,23 @@ h2 {
   display: block;
 }
   
-#example1 {
+#uk-info {
 	border-style: dashed;
     border-color: black;
     border-width: 3px;
+	border-radius: 30px;
     padding: 30px;
     background-color: white;
     margin: 50px;
     position: relative;
     margin-bottom: 220px;
 }
+
+#uk-info p {
+	font-size: 20px;
+	text-align: center;
+}
+
 /* ---- BUTTON HOME PAGE --- */
 .button1 {
     border-radius: 15px;
