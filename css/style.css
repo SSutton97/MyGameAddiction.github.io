@@ -634,14 +634,21 @@ input[type=submit]:hover {
 /*--- ABOUT US ---*/
 
 #about-info {
-	border-style: solid;
-	border-radius: 12px;
-	padding-left: 80px;
-	padding-right: 80px;
-	margin-left: 80px;
-    margin-right: 80px;
+	border-style: dashed;
+    border-color: black;
+    border-width: 3px;
+	border-radius: 30px;
+    padding: 30px;
+    background-color: white;
+    margin: 50px;
+    position: relative;
+    margin-bottom: 220px;
 }
 
+#about-info p {
+	font-size: 20px;
+	text-align: center;
+}
 
 
 
