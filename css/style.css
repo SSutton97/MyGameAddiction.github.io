@@ -567,6 +567,8 @@ h2 {
   height: 210px;
 }
 
+/*--- CONTACT FORM ---*/
+
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
   width: 100%; /* Full width */
@@ -605,10 +607,16 @@ input[type=submit]:hover {
 }
 
 
+/*--- ABOUT US ---*/
 
-
-
-
+#about-info {
+	border-style: solid;
+	border-radius: 12px;
+	padding-left: 80px;
+	padding-right: 80px;
+	margin-left: 80px;
+    margin-right: 80px;
+}
 
 
 
