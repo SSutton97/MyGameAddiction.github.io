@@ -1,11 +1,4 @@
-html{
-	position: relative;	
-	min-height: 100%;
-}
 
-	background-color: #74828F;
-	margin: 0 0 100px;
-}
 h1 {
 	font-family: "Times New Roman", Georgia, Serif;
 	text-align: center;
@@ -174,7 +167,7 @@ h2 {
   display: block;
 }
   
-#uk-info {
+#uk-box1 {
 	border-style: dashed;
     border-color: black;
     border-width: 3px;
@@ -183,12 +176,50 @@ h2 {
     background-color: white;
     margin: 50px;
     position: relative;
+	width: 60%;
 }
 
-#uk-info p {
+#uk-box1 p {
 	font-size: 20px;
 	text-align: center;
 }
+
+#uk-box2 {
+	border-style: dashed;
+    border-color: black;
+    border-width: 3px;
+	border-radius: 30px;
+    padding: 30px;
+    background-color: white;
+    margin: 50px;
+    position: relative;
+	width: 60%;
+	right: -27%;
+}
+
+#uk-box2 p {
+	font-size: 20px;
+	text-align: center;
+}
+
+#uk-box3 {
+	border-style: dashed;
+    border-color: black;
+    border-width: 3px;
+	border-radius: 30px;
+    padding: 30px;
+    background-color: white;
+    margin: 50px;
+    position: relative;
+	width: 60%;
+}
+
+#uk-box3 p {
+	font-size: 20px;
+	text-align: center;
+}
+
+
 
 #block-info {
 	border-style: dashed;
