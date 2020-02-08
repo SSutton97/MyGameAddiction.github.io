@@ -1,80 +1,11 @@
 html{
 	position: relative;	
-	min-height: 100%
+	min-height: 100%;
 }
 
-
-#index{
-	background-color: #ADD8E6;
-	margin: 0 0 165px;
-}
-
-#about{
-	background-color: #96C0CE;
-	margin: 0 0 100px;
-}
-
-#help{
-	background-color: #FEF6EB;
-	margin: 0 0 100px;
-}
-
-#how-guide{
 	background-color: #74828F;
 	margin: 0 0 100px;
 }
-
-#organisation{
-	background-color: #74828F;
-	margin: 0 0 100px;
-}
-
-#online-help{
-	background-color: #74828F;
-	margin: 0 0 100px;
-}
-
-#medical-help{
-	background-color: #74828F;
-	margin: 0 0 100px;
-}
-
-#legal{
-	background-color: #74828F;
-	margin: 0 0 100px;
-}
-
-#uk{
-	background-color: white;
-	margin: 0 0 100px;
-}
-
-#international{
-	background-color: #74828F;
-	margin: 0 0 100px;
-}
-
-#health{
-	background-color: #C25B56;
-	margin: 0 0 100px;
-}
-
-#mental-health{
-	background-color: #C25B56;
-	margin: 0 0 100px;
-}
-
-#physical-health{
-	background-color: #C25B56;
-	margin: 0 0 100px;
-}
-
-#test{
-	background-color: #74828F;
-	margin: 0 0 100px;
-}
-
-
 h1 {
 	font-family: "Times New Roman", Georgia, Serif;
 	text-align: center;
