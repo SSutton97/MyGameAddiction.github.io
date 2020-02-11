@@ -66,31 +66,21 @@ function myFunction() {
 }
 </script>
 
-<h2> Contact Us </h2>
-
-<div class="container">
-  <form action="action_page.php">
-
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="usa">UK</option>
-      <option value="ireland">Ireland</option>
-      <option value="usa">USA</option>
-    </select>
-
-    <label for="subject">Subject</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
-
-  </form>
+<div class="contact-title">
+	<h3> Contact Us </h3>
 </div>
+
+<div class ="contact-form">
+	<form id="contact-form" method="post" action="contact-form.php">
+	
+	<input name ="name" type="text" class="form-control" placeholder="Your Name" required> <br>
+	<input email ="name" type="text" class="form-control" placeholder="Your Email" required><br>
+	<textarea name="message" class="form-control" placeholder="Message" rows="5" required></textarea> <br>
+	
+	<input type="submit" class="form-control submit" value="SEND MESSAGE">
+	</form>
+</div>
+
 
 <footer class="container-fluid text-center">
   <p>© 2020 Copyright: The Game Addict</p>
