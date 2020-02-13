@@ -63,7 +63,6 @@ form .submit:hover {
 h1 {
 	font-family:'RalewayThin';
 	text-transform: uppercase;
-	font-weight: 1;
 	font-size: 75px;
     line-height: 4rem;
 	color: #fff;
@@ -628,14 +627,15 @@ h2 {
 /*--- ABOUT US ---*/
 
 #about-info {
-	background-color: rgba(255, 255, 255, 0.5); 
-	width: 790px; 
-	height: 575px; 
-	position: absolute; 
-	z-index: 20;
-	margin-left: 350px;
+	background-color: rgba(255, 255, 255, 0.5);
+    width: 700px;
+    height: 360px;
+    position: absolute;
+    z-index: 20;
+    margin-left: 450px;
     margin-top: 35px;
-	border-radius: 15px;
+    border-radius: 15px;
+    padding: 20px;
 }
 
 #about-info p {
@@ -646,20 +646,20 @@ h2 {
 
 
 #nath{
-    margin-left: 600px;
+    margin-left: 865px;
 	border-radius: 15px;
 	width: 500px;
 }
 
 #about-info2 {
-	background-color: rgba(255, 255, 255, 0.5); 
-	width: 790px; 
-	height: 575px; 
-	position: absolute; 
-	z-index: 20;
-    margin-left: 850px;
-    margin-top: 820px;
-	border-radius: 15px;
+	background-color: rgba(255, 255, 255, 0.5);
+    width: 790px;
+    height: 460px;
+    position: absolute;
+    z-index: 20;
+    margin-left: 725px;
+    margin-top: 745px;
+    border-radius: 15px;
 }
 
 #about-info2 p {
@@ -670,14 +670,20 @@ h2 {
 
 
 #nath2{
-    margin-right: 600px;
-	margin-top: 100px;
-	border-radius: 15px;
-	width: 500px;
+	margin-right: 900px;
+    margin-top: -10px;
+    border-radius: 15px;
+    width: 500px;
 }
 
 
-
+footer {
+    padding: 10px 20px;
+    background: #666;
+    color: white;
+    margin-top: 35px;
+    width: 100%;	  
+}
 
 
 
