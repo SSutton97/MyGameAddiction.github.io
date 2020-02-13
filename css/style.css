@@ -1,3 +1,5 @@
+@font-face {font-family: RalewayThin;src: url(fonts/raleway/Raleway-Thin.ttf);}
+
 body{
 	margin: 0;
 	padding: 0;
@@ -56,13 +58,20 @@ form .submit:hover {
 }
 
 h1 {
-	font-family: "Times New Roman", Georgia, Serif;
-	text-align: center;
-	font-size: 55px;
+	font-family:'RalewayThin';
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 75px;
+    line-height: 4rem;
+	color: #fff;
+	text-align: centre;
+	border-bottom: 3px dotted #fff;
 }
 
 h2 {
-	font-family: "Times New Roman", Georgia, Serif;
+	font-family:'RalewayThin';
+	text-transform: uppercase;
+	font-weight: 100;
 	text-align: center;
 	font-size: 45px;
 	color: black;
@@ -131,7 +140,6 @@ h2 {
 
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/image1.jpg");
-  
   height: 380px;
   background-position: center;
   background-repeat: no-repeat;
@@ -622,6 +630,7 @@ h2 {
 	z-index: 20;
 	margin-left: 440px;
     margin-top: 75px;
+	border-radius: 15px;
 }
 
 #about-info p {
@@ -630,6 +639,7 @@ h2 {
 }
 #nath{
     margin-left: 300px;
+	border-radius: 15px;
 }
 
 
