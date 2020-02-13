@@ -169,12 +169,13 @@ h2 {
 .topnav a {
   float: left;
   display: block;
-  color: #525564;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
-  font-family: "Times New Roman", Georgia, Serif;
+  font-size: 18px;
+  font-family:'RalewayThin';
+  font-weight: bold;
 }
 
 .active {
@@ -193,14 +194,15 @@ h2 {
 }
 
 .dropdown .dropbtn {
-  font-size: 17px;    
+  font-size: 18px;    
   border: none;
   outline: none;
-  color: #525564;
+  color: black;
   padding: 14px 16px;
   background-color: inherit;
   margin: 0;
-  font-family: "Times New Roman", Georgia, Serif;
+  font-family:'RalewayThin';
+  font-weight: bold;
 }
 
 .dropdown-content {
