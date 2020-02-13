@@ -627,23 +627,54 @@ h2 {
 
 #about-info {
 	background-color: rgba(255, 255, 255, 0.5); 
-	width: 500px; 
-	height: 400px; 
+	width: 790px; 
+	height: 575px; 
 	position: absolute; 
 	z-index: 20;
-	margin-left: 440px;
-    margin-top: 75px;
+	margin-left: 500px;
+    margin-top: 130px;
+
 	border-radius: 15px;
 }
 
 #about-info p {
 	font-size: 20px;
 	text-align: center;
+	ine-height: 0.9;
 }
+
+
 #nath{
-    margin-left: 300px;
+    margin-left: 800px;
+	border-radius: 15px;
+	width: 600px;
+}
+
+#about-info2 {
+	background-color: rgba(255, 255, 255, 0.5); 
+	width: 790px; 
+	height: 575px; 
+	position: absolute; 
+	z-index: 20;
+    margin-left: 740px;
+    margin-top: 1030px;
 	border-radius: 15px;
 }
+
+#about-info2 p {
+	font-size: 20px;
+	text-align: center;
+	ine-height: 0.9;
+}
+
+
+#nath2{
+    margin-right: 800px;
+	margin-top: 100px;
+	border-radius: 15px;
+	width: 600px;
+}
+
 
 
 
