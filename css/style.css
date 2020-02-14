@@ -1,3 +1,8 @@
+@font-face {
+	font-family: RalewayThin;
+	src: url(fonts/Raleway-Thin.ttf);
+}
+
 body{
 	margin: 0;
 	padding: 0;
@@ -56,15 +61,21 @@ form .submit:hover {
 }
 
 h1 {
-	font-family: "Times New Roman", Georgia, Serif;
-	text-align: center;
-	font-size: 55px;
+	font-family:'RalewayThin';
+	text-transform: uppercase;
+	font-size: 75px;
+    line-height: 4rem;
+	color: #fff;
+	text-align: centre;
+	border-bottom: 3px dotted #fff;
 }
 
 h2 {
-	font-family: "Times New Roman", Georgia, Serif;
+	font-family:'RalewayThin';
+	text-transform: uppercase;
+	font-weight: 1;
 	text-align: center;
-	font-size: 45px;
+	font-size: 60px;
 	color: black;
 }
 
@@ -131,7 +142,6 @@ h2 {
 
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/image1.jpg");
-  
   height: 380px;
   background-position: center;
   background-repeat: no-repeat;
@@ -160,12 +170,13 @@ h2 {
 .topnav a {
   float: left;
   display: block;
-  color: #525564;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
-  font-family: "Times New Roman", Georgia, Serif;
+  font-size: 18px;
+  font-family:'RalewayThin';
+  font-weight: bold;
 }
 
 .active {
@@ -184,14 +195,15 @@ h2 {
 }
 
 .dropdown .dropbtn {
-  font-size: 17px;    
+  font-size: 18px;    
   border: none;
   outline: none;
-  color: #525564;
+  color: black;
   padding: 14px 16px;
   background-color: inherit;
   margin: 0;
-  font-family: "Times New Roman", Georgia, Serif;
+  font-family:'RalewayThin';
+  font-weight: bold;
 }
 
 .dropdown-content {
@@ -617,25 +629,63 @@ h2 {
 /*--- ABOUT US ---*/
 
 #about-info {
-	border-style: dashed;
-    border-color: black;
-    border-width: 3px;
-	border-radius: 30px;
-    padding: 30px;
-    background-color: white;
-    margin: 50px;
-    position: relative;
-    margin-bottom: 220px;
+	background-color: rgba(255, 255, 255, 0.5);
+    width: 700px;
+    height: 360px;
+    position: absolute;
+    z-index: 20;
+    margin-left: 450px;
+    margin-top: 35px;
+    border-radius: 15px;
+    padding: 20px;
 }
 
 #about-info p {
 	font-size: 20px;
 	text-align: center;
+	line-height: 0.9;
 }
 
 
+#nath{
+    margin-left: 865px;
+	border-radius: 15px;
+	width: 500px;
+}
+
+#about-info2 {
+	background-color: rgba(255, 255, 255, 0.5);
+    width: 790px;
+    height: 460px;
+    position: absolute;
+    z-index: 20;
+    margin-left: 725px;
+    margin-top: 745px;
+    border-radius: 15px;
+}
+
+#about-info2 p {
+	font-size: 20px;
+	text-align: center;
+	line-height: 0.9;
+}
 
 
+#nath2{
+	margin-right: 900px;
+    margin-top: -10px;
+    border-radius: 15px;
+    width: 500px;
+}
+
+
+footer {
+    padding: 10px 20px;
+    background: #666;
+    color: white;
+    margin-top: 35px;
+    width: 100%;	  
+}
 
 
 
