@@ -129,7 +129,7 @@ h2 {
   font-family: Impact, fantasy;
   margin-top: 15px;
   margin-bottom: 15px;
-  height: 270px;
+  height: 290px;
 }
 
 #cont_two{
@@ -141,7 +141,7 @@ h2 {
   font-family: Impact, fantasy;
   margin-top: 15px;
   margin-bottom: 15px;
-  height: 300px;
+  height: 310px;
 }
 
 #cont_two p {
@@ -173,7 +173,7 @@ h2 {
   font-family: Impact, fantasy;
   margin-top: 15px;
   margin-bottom: 15px;
-  height: 270px;
+  height: 290px;
 }
 
 #cont_four p {
@@ -301,7 +301,6 @@ h2 {
 .button1 span {
   cursor: pointer;
   display: inline-block;
-  position: relative;
   transition: 0.5s;
 }
 
@@ -339,7 +338,6 @@ h2 {
 .button2 span {
   cursor: pointer;
   display: inline-block;
-  position: relative;
   transition: 0.5s;
 }
 
@@ -415,7 +413,6 @@ h2 {
 .button4 span {
   cursor: pointer;
   display: inline-block;
-  position: relative;
   transition: 0.5s;
 }
 
@@ -453,7 +450,6 @@ h2 {
 .button5 span {
   cursor: pointer;
   display: inline-block;
-  position: relative;
   transition: 0.5s;
 }
 
@@ -491,7 +487,6 @@ h2 {
 .button_about span {
   cursor: pointer;
   display: inline-block;
-  position: relative;
   transition: 0.5s;
 }
 
@@ -529,7 +524,6 @@ h2 {
 .button-test span {
   cursor: pointer;
   display: inline-block;
-  position: relative;
   transition: 0.5s;
 }
 
@@ -654,9 +648,7 @@ h2 {
 footer {
     padding: 10px 20px;
     background: #666;
-    color: white;
-    margin-top: 35px;
-    width: 100%;	  
+    color: white;	  
 }
 
 
@@ -719,9 +711,7 @@ header {
 footer {
     padding: 10px 20px;
     background: #666;
-    color: white;
-    margin-top: 35px;
-    width: 100%;	  
+    color: white;	  
 }
 }
 
@@ -913,8 +903,7 @@ input[type=submit]:hover {
 footer {
     padding: 10px 20px;
     background: #666;
-    color: white;
-width: 100%;	
+    color: white;	
 }
 }
 
