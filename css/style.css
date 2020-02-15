@@ -160,6 +160,8 @@ h2 {
 }
 
 /* --- NAVIGATION BAR ---*/
+
+
 .topnav {
   overflow: hidden;
   background-color: #96C0CE;
@@ -223,7 +225,7 @@ h2 {
 }
 
 .topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: #C25B56;;
+  background-color: #C25B56;
   color: white;
 }
 
