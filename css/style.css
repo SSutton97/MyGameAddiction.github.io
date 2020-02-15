@@ -652,7 +652,6 @@ h2 {
     width: 500px;
 }
 
-
 footer {
     padding: 10px 20px;
     background: #666;
@@ -711,6 +710,12 @@ header {
   font-family: Impact, fantasy;
   font-size: 20px;
 }
+
+footer {
+    padding: 10px 20px;
+    background: #666;
+    color: white;	  
+}
 }
 
 
@@ -725,7 +730,7 @@ body{
 h1 {
 	font-family:'RalewayThin';
 	text-transform: uppercase;
-font-size: 45px;
+	font-size: 45px;
     line-height: 60px;
 	color: #fff;
 	border-bottom: 3px dotted #fff;
@@ -901,7 +906,8 @@ input[type=submit]:hover {
 footer {
     padding: 10px 20px;
     background: #666;
-    color: white;	  
+    color: white;
+width: 100%;	
 }
 }
 
@@ -956,6 +962,14 @@ h1 {
     line-height: 55px;
 	text-transform: uppercase;
 	color: #fff;
+}
+
+footer {
+    padding: 10px 20px;
+    background: #666;
+    color: white;
+    margin-top: 35px;
+    width: 100%;	  
 }
 }
 
