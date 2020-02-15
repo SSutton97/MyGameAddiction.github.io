@@ -716,6 +716,12 @@ header {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media screen and (max-width: 500px) {
+body{
+	margin: 0;
+	padding: 0;
+	text-align:center;
+}
+
 h1 {
 	font-family:'RalewayThin';
 	text-transform: uppercase;
@@ -754,30 +760,12 @@ font-size: 30px;
   text-transform: uppercase;
 	color: #fff;
 }
-
-	
-	
-	
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
+ 
+ .topnav a:not(:first-child) {display: none;}
+ .topnav a.icon {
+    float: right;
     display: block;
-    text-align: left;
-	text-transform: uppercase;
   }
-  
-  .topnav.responsive .dropdown {float: none;}
-  .topnav.responsive .dropdown-content {position: relative;}
-  .topnav.responsive .dropdown .dropbtn {
-    display: block;
-    width: 100%;
-    text-align: left;
-}
 h2 {
 	font-size: 25px;
 }
