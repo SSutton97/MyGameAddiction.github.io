@@ -3,7 +3,9 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
-  <style>
+  <link rel="shortcut icon" type="image/jpeg" href="images/g.jpeg"/>
+  <title> The Game Addict </title>
+    <style>
   body {
     background-image: url("images/background.jpg"); 
   }
@@ -15,60 +17,33 @@
 <div class="hero-image">
   <div class="hero-text">
     <h1>The Game Addict</h1>
+	<p> Helping you come offline </p>
   </div>
 </div>
 
-<div class="topnav" id="myTopnav">
-  <a href="index.html" class="active">Home</a>
+<div id="navbar">
+  <a class="active" href="index.html">Home</a>
   <a href="about.html">About</a>
-  <div class="dropdown">
-    <button class="dropbtn">Help & Advice
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="how-guide.html">"How to" Guide</a>
-      <a href="organisation.html">Organisations</a>
-      <a href="online-help.html">Online Help</a>
-	  <a href="medical-help.html">Medical Help</a>
-    </div>
-  </div>   
-  <div class="dropdown">
-    <button class="dropbtn">Legal
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="uk-law.html">Uk Law</a>
-      <a href="international-law.html">Internation Law</a>
-	  <a href="block-law.html">Blockchain</a>  
-    </div>
-  </div> 
-  <div class="dropdown">
-    <button class="dropbtn">Health
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="mental-health.html">Mental Health</a>
-      <a href="physical-health.html">Physical Health</a>
-    </div>
-  </div> 
-  <a href="test.html">Take the Test</a>
-  <a href="contact.html">Contact</a>
-
-  
-  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+  <a href="javascript:void(0)">Help & Advice</a>
+  <a href="javascript:void(0)">Legal</a>
+  <a href="javascript:void(0)">Health</a>
+  <a href="javascript:void(0)">Take our test</a>
+  <a href="javascript:void(0)">Contact</a>
 </div>
 
 <script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
 function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
   } else {
-    x.className = "topnav";
+    navbar.classList.remove("sticky");
   }
 }
-
-
 </script>
 
 <h2> About Us </h2>
