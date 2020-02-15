@@ -378,7 +378,6 @@ h2 {
 .button3 span {
   cursor: pointer;
   display: inline-block;
-  position: relative;
   transition: 0.5s;
 }
 
@@ -665,6 +664,12 @@ footer {
 
 /*---- MEDIA QUERIES ----*/
 @media screen and (max-width: 600px) {
+body{
+	margin: 0;
+	padding: 0;
+	text-align:center;
+}
+
 	.hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/background2.jpg");
   height: 400px;
@@ -714,7 +719,9 @@ header {
 footer {
     padding: 10px 20px;
     background: #666;
-    color: white;	  
+    color: white;
+    margin-top: 35px;
+    width: 100%;	  
 }
 }
 
