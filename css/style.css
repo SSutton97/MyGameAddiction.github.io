@@ -907,12 +907,25 @@ footer {
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
+body{
+	margin: 0;
+	padding: 0;
+	text-align:center;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
 h1 {
 	font-family:'RalewayThin';
 	text-transform: uppercase;
-    font-size: 30px;
-    line-height: 40px;
+	font-size: 55px;
+    line-height: 10rem;
 	color: #fff;
+	text-align: centre;
 	border-bottom: 3px dotted #fff;
 }
 
