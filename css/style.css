@@ -734,6 +734,11 @@ h1 {
 	padding-bottom: 20px;
 }
 
+h2 {
+	font-size: 25px;
+	font-weight: bold;
+}
+
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/background2.jpg");
   height: 400px;
