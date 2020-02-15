@@ -182,8 +182,13 @@ h2 {
 
 
 .hero-image {
+<<<<<<< HEAD
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/background2.jpg");
   height: 400px;
+=======
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/Inkedimage1_LI.jpg");
+  height: 380px;
+>>>>>>> db536da27fe226038cd620b746e9fc556aed93fc
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
