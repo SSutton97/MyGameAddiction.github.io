@@ -220,7 +220,7 @@ h2 {
     padding: 30px;
     background-color: white;
     margin: 50px;
-    position: relative;
+    position: initial;
 	width: 60%;
 }
 
@@ -237,7 +237,7 @@ h2 {
     padding: 30px;
     background-color: white;
     margin: 50px;
-    position: relative;
+    position: initial;
 	width: 60%;
 	right: -27%;
 }
@@ -255,7 +255,7 @@ h2 {
     padding: 30px;
     background-color: white;
     margin: 50px;
-    position: relative;
+    position: initial;
 	width: 60%;
 }
 
@@ -643,6 +643,103 @@ h2 {
     margin-top: -10px;
     border-radius: 15px;
     width: 500px;
+}
+
+/*--- LEGAL --- */
+.legal-cont {
+	padding: 20px;
+    width: 100%;
+    background-color: #f1f1f1;
+    height: 230px;
+    margin-bottom: 25px;
+}
+
+.uk-button {
+    border-radius: 15px;
+    background-color: #96C0CE;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+	width: 235px;
+    height: 230px;
+    transition: all 0.5s;
+    cursor: pointer;
+    border-radius: 185px;
+	margin-right: -180px;
+}
+
+.uk-button span {
+  cursor: pointer;
+  display: inline-block;
+  transition: 0.5s;
+  font-family:'RalewayThin';
+}
+
+.uk-button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.uk-button:hover span {
+  padding-right: 25px;
+  font-family:'RalewayThin';
+  font-weight: bold;
+}
+
+.international-button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.international-button {
+    border-radius: 15px;
+    background-color: #96C0CE;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 10px;
+    width: 235px;
+    height: 230px;
+    transition: all 0.5s;
+    cursor: pointer;
+    border-radius: 185px;
+    margin-left: 350px;
+}
+
+.international-button span {
+  cursor: pointer;
+  display: inline-block;
+  transition: 0.5s;
+  font-size: 24px;
+  font-family:'RalewayThin';
+
+}
+
+.international-button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.international-button:hover span {
+  padding-right: 25px;
+    font-family:'RalewayThin';
+  font-weight: bold;
+}
+
+.international-button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 footer {
